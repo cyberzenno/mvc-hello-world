@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - MVC Hello World</title>
+    <link href="~/Content/Site.css" rel="stylesheet" />
+</head>
+<body>
+    <menu>
+        <menuitem>
+            <a href="@Url.Action("Index","Home")">Home</a>
+        </menuitem>
+        <menuitem>
+            <a href="@Url.Action("PageOne","Home")">Page One</a>
+        </menuitem>
+    </menu>
+
+    @RenderBody()
+
+    <footer>
+        Footer with text
+    </footer>
+</body>
+</html>

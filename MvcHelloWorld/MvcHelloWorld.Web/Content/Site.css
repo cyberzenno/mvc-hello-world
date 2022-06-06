@@ -1,0 +1,18 @@
+﻿body {
+    font-family: Arial;
+}
+
+menu {
+    background-color: #aaa;
+}
+
+menuitem {
+    display: inline-block;
+    padding: 10px;
+    background-color: #ccc;
+}
+
+footer {
+    padding: 10px;
+    background-color: #ccc;
+}
