@@ -348,3 +348,5 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
+MvcHelloWorld/MvcHelloWorld.NetCore.Web/wwwroot/lib/
+MvcHelloWorld/MvcHelloWorld.NetCore.Web/Properties/ServiceDependencies/zn-hello-world - Web Deploy/
